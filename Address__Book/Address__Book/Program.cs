@@ -21,6 +21,8 @@ namespace Address__Book
             Console.WriteLine("Phone Number="+contacts.PhoneNumber);
             Console.WriteLine("Address ="+contacts.City+ "  " +contacts.State+ "  " +contacts.ZipCode);
             Console.WriteLine("Email Id =" + contacts.Email);
+            AddContacts addContacts = new AddContacts();
+            addContacts.AddContact();
 
            
 
